@@ -1,0 +1,16 @@
+# GuardWatch-Lab - never commit install images, VM disks, logs or PC-specific data
+
+# install images and VM disks (not ours to publish)
+*.iso
+*.wim
+*.swm
+*.esd
+*.qcow2
+*.vmdk
+*.vma
+*.vma.*
+
+# logs and private working files
+*.log
+logs/
+private/
